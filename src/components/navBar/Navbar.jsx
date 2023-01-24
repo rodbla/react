@@ -4,7 +4,7 @@ import ImgLogo from "../../assets/logoSinFondo.png";
 import { Link } from "react-router-dom";
 
 
-export function Navbar() {
+export function NavBar() {
 
 
   return (
@@ -22,8 +22,8 @@ export function Navbar() {
         </ul>
         <ul className="navbar-ul">
           <li>
-            <Link to="/nosotros" className="nav-link">
-              Nosotros
+            <Link to="/quienesSomos" className="nav-link">
+              ¿Quienes somos?
             </Link>
           </li>
         </ul>
